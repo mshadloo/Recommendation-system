@@ -4,7 +4,7 @@ In this repo, I implemented AutoRec, a colabrative filtering model proposed in t
 ![](/autorec.png)
 
 ## Dataset
-I evaluate AutoRec on [100K Movielens dataset]((https://grouplens.org/datasets/movielens/100k/)).
+I evaluate AutoRec on [100K Movielens dataset](https://grouplens.org/datasets/movielens/100k/).
 
 <!--First I explore and read data in dataprocessing.py  file using panda. I split it to training, test and dev sets using sklearn. In main.py I load data and convert them to dictionary, because they are sparse matrix. Dictionary keys are item ids and values are lists of two lists: one for user_id and one for rating.--!>
 
