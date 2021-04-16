@@ -1,6 +1,5 @@
 # Recommendation-system
-In this repo, I implemented AutoRec, the learning model proposed in the following paper:
-S. Sedhain, A. K. Menon, S. Sanner, and L. Xie. Autorec:Autoencoders meet collaborative filtering. In WWW, pages 111–112, 2015
+In this repo, I implemented AutoRec, a colabrative filtering model proposed in the paper [Autoencoders meet collaborative filtering](http://users.cecs.anu.edu.au/~u5098633/papers/www15.pdf) with Keras.
 
 I evaluate AutoRec on 100K Movielens dataset.
 
