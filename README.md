@@ -1,5 +1,5 @@
 # Recommendation system using AutoRec
-In this repo, I implemented AutoRec, a colabrative filtering model proposed in the paper [Autoencoders meet collaborative filtering](http://users.cecs.anu.edu.au/~u5098633/papers/www15.pdf) with Keras and tune hyperparameters of this model using validation set.
+In this repo, I implemented AutoRec, a colabrative filtering model proposed in the paper [Autoencoders meet collaborative filtering](http://users.cecs.anu.edu.au/~u5098633/papers/www15.pdf) with Keras and tuned hyperparameters of this model using validation set.
 
 ![](/autorec.png)
 
