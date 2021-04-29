@@ -16,7 +16,7 @@ I tune following hyperparameters using validation data: number of units in hidde
 
 Result of tuned autorec on Test set          |  Results for different number of hidden units 
 :-------------------------:|:-------------------------:
-![](/tanh_100_adam.png)  |  ![](/test_case_activation_100_adam.png)
+![](/tanh_100_adam.png)  |  ![](/test_case_units_num_tanh_adam.png)
 
 Results for different activation functions          |  Results for different optimization methods 
 :-------------------------:|:-------------------------:
