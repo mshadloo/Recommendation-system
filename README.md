@@ -25,8 +25,8 @@ Results for different activation functions          |  Results for different opt
 
 ## How to run:
 ```
-git clone https://github.com/mshadloo/Neural-Machine-Translation-with-Attention.git
-cd Neural-Machine-Translation-with-Attention
+git clone https://github.com/mshadloo/Recommendation-system.git
+cd Recommendation-system
 chmod +x data.sh && ./data.sh
 chmod +x run.sh && ./run.sh
 ```
