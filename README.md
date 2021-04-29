@@ -13,5 +13,7 @@ I tune following hyperparameters using validation data: number of units in hidde
 
 
 ## Experiments:
+here is 
+
 
 ![](/test_case_activation_100_adam.png)
