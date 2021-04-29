@@ -13,19 +13,13 @@ I evaluate AutoRec on [100K Movielens dataset](https://grouplens.org/datasets/mo
 
 I tune following hyperparameters using validation data: number of units in hidden layer=100, the activation function of hidden layer=tanh and the optimization method = adam. 
 
-![](/tanh_100_adam.png)
 
-### Comparing different number of hidden units:
+Result of tuned autorec on Test set          |  Results for different number of hidden units 
+:-------------------------:|:-------------------------:
+![](/tanh_100_adam.png)  |  ![](/test_case_activation_100_adam.png)
 
-
-![](/test_case_units_num_tanh_adam.png)
-
-### Comparing different activation functions:
-
-
-![](/test_case_activation_100_adam.png)
+Results for different activation functions          |  Results for different optimization methods 
+:-------------------------:|:-------------------------:
+![](/test_case_activation_100_adam.png)  |  ![](/test_case_optimizer_tanh_100.png)
 
 
-### Comparing different optimation methods:
-
-![](/test_case_optimizer_tanh_100.png)
