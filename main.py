@@ -16,7 +16,7 @@ activation_options = {'tanh':tanh, 'selu':selu, 'softplus':softplus}
 optimizer_options =['adam', 'sgd', 'RMSprop']
 parser.add_argument('--activation', '-activation', metavar='activation', default=activation,
                     choices=list(activation_options.keys()),
-                    help='Activation function of hidden layer: ' + ' | '.join(list(activation_options.keys())) +
+                    help='Activation function of the hidden layer: ' + ' | '.join(list(activation_options.keys())) +
                     ' (default: tanh)')
 parser.add_argument('--optimizer', '-optimizer', metavar='Optimizer', default=optimizer,choices=optimizer_options,
                     help='Optimization method: ' +" | ".join(optimizer_options)+' (default: adam)')
