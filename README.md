@@ -1,6 +1,8 @@
 # Recommendation system using AutoRec
 In this repo, I implemented AutoRec, a colabrative filtering model proposed in the paper [Autoencoders meet collaborative filtering](http://users.cecs.anu.edu.au/~u5098633/papers/www15.pdf) with Keras and tuned hyperparameters of this model using validation set.
 
+AutoRec is an autoencoder framework for collaborative filtering(CF). There are two variants of AutoRec depending on two types of inputs: item-based AutoRec (I-AutoRec) and user-based AutoRec (U-AutoRec). I implemented I-AutoRec in this repo. I-AutoRec, the input of the model is item-interaction vector. For item i, item-interaction vector of i is the ith column of the rating matrix.
+
 
 ![](/autorec.png)
 
