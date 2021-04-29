@@ -32,6 +32,8 @@ parser.add_argument('--checkpoint', dest='checkpoint',
 
 args = parser.parse_args()
 working_dir = './test_cases'
+if not os.path.exists(working_dir):
+      os.makedirs(working_dir)
 data_dir = args.data_dir
 checkpoint_dir = os.path.join(working_dir, args.checkpoint )
 if not os.path.exists(checkpoint_dir):
