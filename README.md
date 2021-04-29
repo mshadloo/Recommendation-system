@@ -23,3 +23,11 @@ Results for different activation functions          |  Results for different opt
 ![](/test_case_activation_100_adam.png)  |  ![](/test_case_optimizer_tanh_100.png)
 
 
+## How to run:
+```
+git clone https://github.com/mshadloo/Neural-Machine-Translation-with-Attention.git
+cd Neural-Machine-Translation-with-Attention
+chmod +x data.sh && ./data.sh
+chmod +x run.sh && ./run.sh
+```
+
