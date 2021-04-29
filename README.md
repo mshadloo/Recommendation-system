@@ -1,6 +1,7 @@
 # Recommendation system using AutoRec
 In this repo, I implemented AutoRec, a colabrative filtering model proposed in the paper [Autoencoders meet collaborative filtering](http://users.cecs.anu.edu.au/~u5098633/papers/www15.pdf) with Keras and tuned hyperparameters of this model using validation set.
 
+
 ![](/autorec.png)
 
 ## Dataset
@@ -14,5 +15,3 @@ I tune following hyperparameters using validation data: number of units in hidde
 ## Experiments:
 
 ![](/test_case_activation_100_adam.png)
-
-![](/test_case_optimizer_tanh_100.png)
